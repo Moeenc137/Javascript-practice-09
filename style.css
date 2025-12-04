@@ -1,0 +1,19 @@
+.heading {
+  width: 100%;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 50px 0 50px 0;
+}
+
+.colors {
+  display: flex;
+  gap: 20px;
+}
+
+.hover {
+  margin-top: 32px;
+  padding: 20px;
+  background-color: #ff6135;
+  width: auto;
+  border: 1px solid black;
+}
