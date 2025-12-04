@@ -28,3 +28,13 @@ hover.onmouseover = () => {
   imprsn.innerText = "you got an impression";
   imprsn.after(".hover");
 };
+
+//event objects
+
+let h1 = document.querySelector("h1");
+h1.onmouseover = (evt) => {
+  console.log(evt); //tells you complete info of the event
+  console.log(evt.type); //tells you event type
+  console.log(evt.target); //tells you where event targeted
+  console.log(evt.clientX, evt.clientY); //tells event location on screen
+};
